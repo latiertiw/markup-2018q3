@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin:0;
-    color: white;
+    
     list-style: none;
     box-sizing: inherit;
 }
@@ -39,7 +39,7 @@
 header{
     background: url(Header_BG.jpg);
     background-size: 100% 100%;
-    
+    color: white;
    
 
 }
@@ -62,8 +62,11 @@ header .container .member{
 }
 header .container .member>div{
     border : 0px solid white;
+    /* transform: skewY(5deg); */
+   
 }
 
+ 
 header .container .menu{
    
     grid-column: 1/21;
@@ -133,16 +136,60 @@ header .container .text{
 
 .grid-item-domain .text{
     
-    border: 1px solid black;
+    border: 0px solid black;
     grid-row: 8/14;
-    grid-column:10/31;
+    grid-column:8/33;
     text-align: center;
 }
 
-.grid-item-domain .text p{
-    color: black;
+.grid-item-domain .search{
+    padding: 1% 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    grid-row: 16/19;
+    margin:0px 1.5%;
+    grid-column:8/33;
+    
+    display: grid;
+    grid-template-columns: 71px auto 71px;
 
 }
+.grid-item-domain .search>div{
+    display:grid;
+    text-align: center;
+    align-content: center;
+    border:0px solid black;
+}
+
+.grid-item-domain .table{
+    text-align: center;
+    height: 194px;
+    margin:0px 1.5%;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    grid-row: 21/30;
+    grid-column:8/33;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.grid-item-domain .table div{
+    color:rgba(0, 0, 0, 0.15);
+    display: grid;
+  
+    align-content: center;
+    justify-content: center;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    
+}
+
+/* .grid-item-domain .table .costil{
+    border:0.5px solid black;
+    background-color: white;
+} */
+
 
 .grid-item-packages{
    display:grid;
