@@ -815,12 +815,65 @@ padding-right: 14%;
                             width: 18px;
 
                         }
+
 .grid-item-comments{
-    
     background: url(img/Comments_BG_Photo.png);
     background-size: 100% 100%;
-    
 }
+        .grid-item-comments .text-block{
+        text-align: center;
+        color: #ffffff;;
+        font-family: Lato;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 45px 15% 1% 15%;
+
+        }
+        .grid-item-comments .button-block{
+            display:flex;
+            padding-top: 5px;
+            justify-content: center;
+            align-items: center;
+            
+           
+        }
+
+        .grid-item-comments .button-block .name{
+            color: #ffffff;
+            font-family: Lato-semibold;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-right: 20px;
+        }
+        .grid-item-comments .button-block .button-1{
+           
+           border: 1px solid white;
+           margin: 0px 7px;
+           margin-top: 3px;
+            height: 6px;
+            width: 6px;
+            border-radius: 10px;
+        }
+        .grid-item-comments .button-block .button-2{
+            border: 1px solid white;
+            height: 6px;
+            width: 6px;
+            border-radius: 10px;
+            margin: 0px 7px;
+            margin-top: 3px;
+        }
+        .grid-item-comments .button-block .button-3{
+            border: 1px solid white;
+            height: 6px;
+            width: 6px;
+            border-radius: 10px;
+            margin: 0px 7px;
+            margin-top: 3px;
+        }
+
+
+
 
 .grid-item-functions{
 
