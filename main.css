@@ -246,25 +246,79 @@ header .container .text{
 
         .grid-item-domain .table div{
             color:rgba(0, 0, 0, 0.15);
-            display: grid;
-        
-            align-content: center;
-            justify-content: center;
-            border: 0px solid rgba(0, 0, 0, 0.15);
+            display: block;
             
         }
 
-        .grid-item-domain .table div:before{
-            content:"";
-           display: none;
-           position: absolute;
-
-           border-right: 1px solid black;
-          
-           height: 13%;
-           width:14%;
-           background-color: rgba(255, 0, 0, 0);
+        .grid-item-domain .table div .f-type{
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            height: 80%;
+            width: 100%;
+            border-right: 1px solid #d9d9d9;
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
         }
+
+        .grid-item-domain .table div .f-type::before{
+            content:"";
+           display: block;
+           position: absolute;
+          height: 87px;
+           width: 13.15%; 
+          min-width: 130px;
+          margin-left: 0.68%;
+           border-bottom: 1px solid #d9d9d9;
+           
+        }
+
+        .grid-item-domain .table div .s-type{
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            height: 80%;
+            width: 100%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
+        }
+
+        .grid-item-domain .table div .s-type::before{
+            content:"";
+           display: block;
+           position: absolute;
+          height: 87px;
+          width: 13.15%;
+          margin-left: 0.68%;
+           border-bottom: 1px solid #d9d9d9;
+           
+        }
+        .grid-item-domain .table div .t-type{
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            height: 80%;
+            width: 100%;
+            border-right: 1px solid #d9d9d9;
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
+        }
+
+        .grid-item-domain .table div .l-type{
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            height: 80%;
+            width: 100%;
+            
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
+        }
+        
 
 
 .grid-item-packages{
@@ -680,11 +734,23 @@ header .container .text{
     grid-column: 2/4;
 }
 .grid-item-about_us .text-block{
-    
+    font-size: 18px;
+    line-height: 27px;
 grid-row:2/3;
 grid-column: 2/3;
 border-right: 1.5px dashed #d4d4d4;
-padding-right: 14%;
+padding-right: 20%;
+text-align: justify;
+}
+@media screen and (max-width: 1150px){
+    .grid-item-about_us .text-block{
+        padding-right: 8%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .grid-item-about_us .text-block{
+        padding-right: 3%;
+    }
 }
 
 .grid-item-about_us .img-block{
@@ -1110,7 +1176,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+        min-height: 50px;
         grid-column: 2/3;
         border-bottom: 1px solid #4a4a4a;
         }
@@ -1168,6 +1234,11 @@ footer{
                     font-family: Lato;
                     font-size: 15px;
                     color: #686868;
+                }
+                @media screen and (max-width: 1200px){
+                    footer .bottom-block .text{
+                        padding-right: 0%;
+                    }
                 }
                 footer .bottom-block .menu{
                     grid-row: 2/3;
@@ -1233,6 +1304,17 @@ footer{
                     justify-content: space-evenly;
                     padding-left: 17%;
                     
+                }
+
+                @media screen and (max-width: 1265px){
+                    footer .bottom-block .info{
+                        padding-left: 10%;
+                    }
+                }
+                @media screen and (max-width: 1200px){
+                    footer .bottom-block .info{
+                        padding-left: 1%;
+                    }
                 }
 
                 footer .bottom-block .info .el-1::before{
