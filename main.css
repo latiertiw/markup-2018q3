@@ -1288,7 +1288,7 @@ text-align: justify;
         margin: 45px 15% 1% 15%;
 
         }
-        .grid-item-comments .button-block{
+        .grid-item-comments .button-slider-block{
             display:flex;
             padding-top: 5px;
             justify-content: center;
@@ -1297,7 +1297,15 @@ text-align: justify;
            
         }
 
-                .grid-item-comments .button-block .name{
+               /*  .grid-item-comments .button-block #name{
+                    color: #ffffff;
+                    font-family: Lato-semibold;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    margin-right: 20px;
+                } */
+                 #name{
                     color: #ffffff;
                     font-family: Lato-semibold;
                     font-size: 20px;
@@ -1305,7 +1313,9 @@ text-align: justify;
                     line-height: 20px;
                     margin-right: 20px;
                 }
-                .grid-item-comments .button-block .button-1{
+
+
+                .grid-item-comments .button-slider-block #button-1{
                 
                 border: 1px solid white;
                 margin: 0px 7px;
@@ -1314,7 +1324,7 @@ text-align: justify;
                     width: 6px;
                     border-radius: 10px;
                 }
-                .grid-item-comments .button-block .button-2{
+                .grid-item-comments .button-slider-block #button-2{
                     border: 1px solid white;
                     height: 6px;
                     width: 6px;
@@ -1322,7 +1332,7 @@ text-align: justify;
                     margin: 0px 7px;
                     margin-top: 3px;
                 }
-                .grid-item-comments .button-block .button-3{
+                .grid-item-comments .button-slider-block #button-3{
                     border: 1px solid white;
                     height: 6px;
                     width: 6px;
